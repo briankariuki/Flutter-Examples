@@ -3,8 +3,6 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 
 import '../config/palette.dart';
 import '../data/data.dart';
-import '../data/data.dart';
-import '../data/data.dart';
 import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
