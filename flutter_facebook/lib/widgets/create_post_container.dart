@@ -14,7 +14,7 @@ class CreatePostContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: const EdgeInsets.fromLTRB(12.0, 8.0, 12.0, 0.0),
+        padding: const EdgeInsets.fromLTRB(12.0, 8.0, 12.0, 8.0),
         color: Colors.white,
         child: Column(
           children: [
