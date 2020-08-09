@@ -37,13 +37,16 @@ class _NavScreenState extends State<NavScreen> {
           index: _selectedIndex,
           children: _screens,
         ),
-        bottomNavigationBar: Padding(
-          padding: const EdgeInsets.only(bottom: 6.0),
-          child: CustomTabBar(
-              icons: _icons,
-              selectedIndex: _selectedIndex,
-              onTap: (index) => setState(() => _selectedIndex = index)),
-        ),
+        bottomNavigationBar: !Responsive.isDesktop(context)
+            ? Container(
+                padding: const EdgeInsets.only(bottom: 6.0),
+                child: CustomTabBar(
+                  icons: _icons,
+                  selectedIndex: _selectedIndex,
+                  onTap: (index) => setState(() => _selectedIndex = index),
+                ),
+              )
+            : const SizedBox.shrink(),
       ),
     );
   }
