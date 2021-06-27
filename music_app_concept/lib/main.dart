@@ -1,19 +1,36 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:music_app_concept/config/theme.dart';
+import 'package:music_app_concept/screens/home/home_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+
+  runZonedGuarded(() {
+    runApp(
+      MyApp(),
+    );
+  }, (error, stackTrace) {
+    print('runZonedGuarded: Caught error in my root zone.');
+  });
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: Scaffold(),
+    return GetMaterialApp(
+      initialRoute: '/',
+      getPages: [
+        GetPage(
+          name: '/',
+          page: () => HomeScreen(),
+          children: [],
+        ),
+      ],
+      theme: AppTheme.lightThemeData(context),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
