@@ -16,6 +16,7 @@ class Assets {
   static const String echoes = '${_images}echoes.jpg';
   static const String gravity = '${_images}gravity.jpg';
   static const String inspiration = '${_images}inspiration.jpg';
+  static const String problems = '${_images}problems.jpg';
   static const String sunset_dreamz = '${_images}sunset dreamz.jpg';
   static const String good_morning = '${_images}good morning.jpg';
   static const String the_light = '${_images}the light.jpg';

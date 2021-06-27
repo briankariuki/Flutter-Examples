@@ -48,6 +48,11 @@ final List<Song> songs = [
     albumUrl: Assets.the_light,
   ),
   Song(
+    title: 'Problems',
+    artist: 'A R I Z O N A',
+    albumUrl: Assets.problems,
+  ),
+  Song(
     title: 'Stars Tonight',
     artist: 'Zeds dead, DROELOE',
     albumUrl: Assets.stars_tonight,
