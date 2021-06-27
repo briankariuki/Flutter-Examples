@@ -2,7 +2,13 @@ class Assets {
   static const String _icons = 'assets/icons/';
   static const String _images = 'assets/images/';
 
-  static const String cog = '${_icons}cog.svg';
+  static const String menu = '${_icons}menu.svg';
+  static const String search = '${_icons}search.svg';
+  static const String heart = '${_icons}heart.svg';
+  static const String pause = '${_icons}pause.svg';
+  static const String shuffle = '${_icons}shuffle.svg';
+  static const String repeat = '${_icons}repeat.svg';
+  static const String arrow_back = '${_icons}arrow-back.svg';
 
   static const String ampersand = '${_images}ampersand.jpg';
   static const String immortal = '${_images}immortal.jpg';

@@ -1,0 +1,11 @@
+<svg id="arrow-ios-back" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-1" width="24" height="24" transform="translate(24) rotate(90)"/>
+  <path id="Path_4" data-name="Path 4" d="M13.83,19a1,1,0,0,1-.78-.37l-4.83-6a1,1,0,0,1,0-1.27l5-6a1,1,0,0,1,1.54,1.28L10.29,12l4.32,5.36A1,1,0,0,1,13.83,19Z"/>
+</svg>

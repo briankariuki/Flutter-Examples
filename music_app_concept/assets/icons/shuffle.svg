@@ -1,0 +1,11 @@
+<svg id="shuffle-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-1" width="24" height="24" transform="translate(24 24) rotate(180)"/>
+  <path id="Path_1" data-name="Path 1" d="M18.71,14.29a1,1,0,0,0-1.42,1.42l.29.29H16a4,4,0,0,1,0-8h1.59l-.3.29a1,1,0,0,0,1.42,1.42l2-2a1.014,1.014,0,0,0,0-1.42l-2-2a1,1,0,0,0-1.42,1.42l.29.29H16a6,6,0,0,0-5,2.69A6,6,0,0,0,6,6H4A1,1,0,0,0,4,8H6a4,4,0,0,1,0,8H4a1,1,0,0,0,0,2H6a6,6,0,0,0,5-2.69A6,6,0,0,0,16,18h1.59l-.3.29a1,1,0,0,0,1.42,1.42l2-2a1.014,1.014,0,0,0,0-1.42Z"/>
+</svg>

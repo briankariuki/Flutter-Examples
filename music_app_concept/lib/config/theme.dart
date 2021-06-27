@@ -5,11 +5,11 @@ import 'package:music_app_concept/helpers/helpers.dart';
 class AppTheme {
   static ThemeData lightThemeData(BuildContext context) {
     return ThemeData(
-      primaryColor: Colors.white,
-      fontFamily: 'Inter',
-      primarySwatch: generateMaterialColor(Colors.white),
+      primaryColor: Palette.primary_blue,
+      fontFamily: 'Poppins',
+      primarySwatch: generateMaterialColor(Palette.primary_blue),
       visualDensity: VisualDensity.adaptivePlatformDensity,
-      indicatorColor: Palette.black,
+      indicatorColor: Palette.primary_pink,
       // pageTransitionsTheme: PageTransitionsTheme(
       //   builders: {
       //     TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
@@ -20,8 +20,8 @@ class AppTheme {
       //   },
       // ),
       colorScheme: ColorScheme.light(
-        primary: Colors.white,
-        secondary: Palette.black,
+        primary: Palette.primary_blue,
+        secondary: Palette.light_blue,
       ),
     );
   }

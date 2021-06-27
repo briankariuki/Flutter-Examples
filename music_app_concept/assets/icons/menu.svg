@@ -1,0 +1,13 @@
+<svg id="menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-1" width="24" height="24" transform="translate(24 24) rotate(180)"/>
+  <rect id="Rectangle_17" data-name="Rectangle 17" width="12" height="2" rx="0.95" transform="translate(3 11)"/>
+  <rect id="Rectangle_18" data-name="Rectangle 18" width="18" height="2" rx="0.95" transform="translate(3 16)"/>
+  <rect id="Rectangle_19" data-name="Rectangle 19" width="18" height="2" rx="0.95" transform="translate(3 6)"/>
+</svg>

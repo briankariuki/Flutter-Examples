@@ -3,6 +3,11 @@ import 'package:music_app_concept/models/song.dart';
 
 final List<Song> songs = [
   Song(
+    title: 'Flutter',
+    artist: 'Diamond Eyes',
+    albumUrl: Assets.flutter,
+  ),
+  Song(
     title: 'Ampersand',
     artist: 'AllttA',
     albumUrl: Assets.ampersand,
@@ -18,14 +23,19 @@ final List<Song> songs = [
     albumUrl: Assets.good_morning,
   ),
   Song(
+    title: 'This Far',
+    artist: 'Raven & Kreyn, Nino Lucarelli',
+    albumUrl: Assets.this_far,
+  ),
+  Song(
+    title: 'Like Home',
+    artist: 'Unknown Brain, Trove',
+    albumUrl: Assets.like_home,
+  ),
+  Song(
     title: 'Immortal',
     artist: 'Elley Duhe',
     albumUrl: Assets.immortal,
-  ),
-  Song(
-    title: 'Flutter',
-    artist: 'Diamond Eyes',
-    albumUrl: Assets.flutter,
   ),
   Song(
     title: 'Inspiration',
@@ -51,16 +61,6 @@ final List<Song> songs = [
     title: 'Echoes',
     artist: 'LFZ',
     albumUrl: Assets.echoes,
-  ),
-  Song(
-    title: 'This Far',
-    artist: 'Raven & Kreyn, Nino Lucarelli',
-    albumUrl: Assets.this_far,
-  ),
-  Song(
-    title: 'Like Home',
-    artist: 'Unknown Brain, Trove',
-    albumUrl: Assets.this_far,
   ),
   Song(
     title: 'Gravity',
